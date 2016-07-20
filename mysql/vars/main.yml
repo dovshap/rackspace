@@ -1,0 +1,10 @@
+---
+# vars file for mysql
+
+mysql_root_pass: supersecret
+mysql_port: 3306
+mysql_bind_address: "{{ ansible_eth0.ipv4.address }}"
+db_name: wordpress
+db_username: wordpress
+db_password: wordpress
+                  

@@ -1,0 +1,16 @@
+---
+
+ - name: gather all hosts information
+   hosts: all
+
+ - hosts: mysql
+   become: true
+   roles: 
+    - mysql
+ 
+ - hosts: web
+   become: true
+   roles:
+    - wordpress
+
+

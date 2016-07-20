@@ -1,0 +1,10 @@
+---
+ website_name: press.shapiro-clan.com
+ wordpress_dir: /var/www
+ wordpress_url: http://wordpress.org/latest.tar.gz
+ connections: 1024 #Nginx Connection
+ 
+ db_name: wordpress
+ db_username: wordpress
+ db_password: wordpress
+ db_hostname: "{{ hostvars['mysql']['db_hostname'] }}"
