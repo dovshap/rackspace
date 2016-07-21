@@ -1,5 +1,0 @@
----
-- name: Set MySQL db name for webserver
-  set_fact:
-    db_hostname: "{{ ansible_eth0.ipv4.address }}"
-
