@@ -1,9 +1,9 @@
 [web]
-192.168.122.21 ansible_user=vagrant ansible_ssh_private_key_file=/home/dovber/vagrant/.vagrant/machines/machine1/lxc/private_key
-192.168.122.22 ansible_user=vagrant ansible_ssh_private_key_file=/home/dovber/vagrant/.vagrant/machines/machine2/lxc/private_key
+192.168.122.21 ansible_user=vagrant ansible_ssh_private_key_file=.vagrant/machines/machine1/lxc/private_key
+192.168.122.22 ansible_user=vagrant ansible_ssh_private_key_file=.vagrant/machines/machine2/lxc/private_key
 
 [mysql]
-192.168.122.23 ansible_user=vagrant ansible_ssh_private_key_file=/home/dovber/vagrant/.vagrant/machines/machine3/lxc/private_key
+192.168.122.23 ansible_user=vagrant ansible_ssh_private_key_file=.vagrant/machines/machine3/lxc/private_key
 
 [haproxy]
-192.168.122.24 ansible_user=vagrant ansible_ssh_private_key_file=/home/dovber/vagrant/.vagrant/machines/machine4/lxc/private_key
+192.168.122.24 ansible_user=vagrant ansible_ssh_private_key_file=.vagrant/machines/machine4/lxc/private_key
