@@ -1,5 +1,5 @@
 # HA Wordpress with Vagrant LXC and Ansible
-This combination of Vagrant with the Vagrant-LXC provider and the Ansible provisioner will create:
+This combination of Vagrant with the Vagrant-LXC provider and the Ansible provisioner will create a Wordpress installation with:
 * 2 nginx servers
 * 1 mysql server
 * 1 haproxy load balancer
