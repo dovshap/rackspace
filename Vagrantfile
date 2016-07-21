@@ -18,14 +18,12 @@ Vagrant.configure("2") do |config|
  
  ## Ansible Provisioning
  ##
-   if machine_id == N
    machine.vm.provision "ansible" do |ansible|
      ansible.verbose = "vvvv"
      ansible.inventory_path = "./inventory"
      ansible.sudo = true
      ansible.limit = "all"
      ansible.playbook = "site.yml"
-            end
          end
       end
    end
