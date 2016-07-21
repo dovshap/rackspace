@@ -7,4 +7,4 @@
  db_name: wordpress
  db_username: wordpress
  db_password: wordpress
- db_hostname: "{{ hostvars['mysql']['db_hostname'] }}"
+ db_hostname: 192.168.122.23
